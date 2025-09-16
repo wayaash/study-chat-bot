@@ -1,1 +1,377 @@
+7<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NCERT Study Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f6fa;
+    color: #2f3640;
+  }
+  header {
+    background-color: #273c75;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 22px;
+  }
+  header .by-name {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  nav {
+    width: 250px;
+    background: #192a56;
+    height: calc(100vh - 60px);
+    float: left;
+    color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    background: #40739e;
+  }
+  nav .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  nav .logo img {
+    max-width: 120px;
+    display: block;
+    margin: 0 auto 5px;
+  }
+  nav .logo span {
+    display: block;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  main {
+    margin-left: 250px;
+    padding: 20px 40px;
+    min-height: calc(100vh - 60px);
+    box-sizing: border-box;
+  }
+  main h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #273c75;
+  }
+  .chapter, .subject {
+    background: #dcdde1;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .chapter:hover, .subject:hover {
+    background: #40739e;
+    color: #fff;
+  }
+  footer {
+    clear: both;
+    background: #273c75;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+  }
+  .watermark {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 12px;
+    opacity: 0.4;
+  }
+  .pdf-link {
+    display: inline-block;
+    margin: 10px 5px 0;
+    padding: 8px 12px;
+    background: #40739e;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .pdf-link:hover {
+    background: #273c75;
+  }
+</style>
+</head>
+<body>
 
+<header>
+  <h1>NCERT Study Hub by Yash Raghuwanshi</h1>
+  <div class="by-name">by Yash Raghuwanshi</div>
+</header>
+
+<nav>
+  <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Hack_Club_Logo.png" alt="Hack Club Logo">
+    <span>by Yash Raghuwanshi</span>
+  </div>
+  <a href="#class9">Class 9</a>
+  <a href="#class10">Class 10</a>
+  <a href="#class11">Class 11</a>
+  <a href="#class12">Class 12</a>
+  <a href="#subjects">All Subjects</a>
+</nav>
+
+<main>
+  <h2>Welcome to NCERT Study Hub</h2>
+  <p>Start learning your NCERT syllabus efficiently. Choose your class or subject from the sidebar.</p>
+
+  <section id="class9">
+    <h2>Class 9 NCERT Books</h2>
+    <div class="chapter">
+      <strong>Mathematics:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Mathematics9.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>Science:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Science9.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>English:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/English9.pdf" target="_blank">Download PDF</a>
+    </div>
+  </section>
+
+  <section id="class10">
+    <h2>Class 10 NCERT Books</h2>
+    <div class="chapter">
+      <strong>Mathematics:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Mathematics10.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>Science:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Science10.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>English:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/English10.pdf" target="_blank">Download PDF</a>
+    </div>
+  </section>
+
+  <section id="subjects">
+    <h2>All Subjects</h2>
+    <div class="subject">
+      <strong>Mathematics:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/AllMath.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="subject">
+      <strong>Science:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/AllScience.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="subject">
+      <strong>English:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/AllEnglish.pdf" target="_blank">Download PDF</a>
+    </div>
+  </section>
+
+  <div class="watermark">Powered by Yash Raghuwanshi</div>
+</main>
+
+<footer>
+  📘 Made by Yash Raghuwanshi with ❤️ for learners
+</footer>
+
+</body>
+</html<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NCERT Study Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f6fa;
+    color: #2f3640;
+  }
+  header {
+    background-color: #273c75;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 22px;
+  }
+  header .by-name {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  nav {
+    width: 250px;
+    background: #192a56;
+    height: calc(100vh - 60px);
+    float: left;
+    color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    background: #40739e;
+  }
+  nav .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  nav .logo img {
+    max-width: 120px;
+    display: block;
+    margin: 0 auto 5px;
+  }
+  nav .logo span {
+    display: block;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  main {
+    margin-left: 250px;
+    padding: 20px 40px;
+    min-height: calc(100vh - 60px);
+    box-sizing: border-box;
+  }
+  main h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #273c75;
+  }
+  .chapter, .subject {
+    background: #dcdde1;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .chapter:hover, .subject:hover {
+    background: #40739e;
+    color: #fff;
+  }
+  footer {
+    clear: both;
+    background: #273c75;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+  }
+  .watermark {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 12px;
+    opacity: 0.4;
+  }
+  .pdf-link {
+    display: inline-block;
+    margin: 10px 5px 0;
+    padding: 8px 12px;
+    background: #40739e;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .pdf-link:hover {
+    background: #273c75;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>NCERT Study Hub by Yash Raghuwanshi</h1>
+  <div class="by-name">by Yash Raghuwanshi</div>
+</header>
+
+<nav>
+  <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Hack_Club_Logo.png" alt="Hack Club Logo">
+    <span>by Yash Raghuwanshi</span>
+  </div>
+  <a href="#class9">Class 9</a>
+  <a href="#class10">Class 10</a>
+  <a href="#class11">Class 11</a>
+  <a href="#class12">Class 12</a>
+  <a href="#subjects">All Subjects</a>
+</nav>
+
+<main>
+  <h2>Welcome to NCERT Study Hub</h2>
+  <p>Start learning your NCERT syllabus efficiently. Choose your class or subject from the sidebar.</p>
+
+  <section id="class9">
+    <h2>Class 9 NCERT Books</h2>
+    <div class="chapter">
+      <strong>Mathematics:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Mathematics9.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>Science:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Science9.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>English:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/English9.pdf" target="_blank">Download PDF</a>
+    </div>
+  </section>
+
+  <section id="class10">
+    <h2>Class 10 NCERT Books</h2>
+    <div class="chapter">
+      <strong>Mathematics:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Mathematics10.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>Science:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/Science10.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="chapter">
+      <strong>English:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/English10.pdf" target="_blank">Download PDF</a>
+    </div>
+  </section>
+
+  <section id="subjects">
+    <h2>All Subjects</h2>
+    <div class="subject">
+      <strong>Mathematics:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/AllMath.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="subject">
+      <strong>Science:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/AllScience.pdf" target="_blank">Download PDF</a>
+    </div>
+    <div class="subject">
+      <strong>English:</strong> <a class="pdf-link" href="https://ncertbooks.ncert.gov.in/textbook/pdf/AllEnglish.pdf" target="_blank">Download PDF</a>
+    </div>
+  </section>
+
+  <div class="watermark">Powered by Yash Raghuwanshi</div>
+</main>
+
+<footer>
+  📘 Made by Yash Raghuwanshi with ❤️ for learners
+</footer>
+
+</body>
+</html>
